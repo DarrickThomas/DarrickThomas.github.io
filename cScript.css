@@ -3,3 +3,6 @@ h1 {
   font-family: fantasy;
   text-rendering: optimizeLegibility;
 }
+body {
+  background-color: #f3e2dc;
+}
