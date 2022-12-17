@@ -3,3 +3,17 @@ h1 {
   font-family: fantasy;
   text-rendering: optimizeLegibility;
 }
+body {
+  background-color: #f3e2dc;
+}
+#txt {
+  font-size: 30px;
+  text-align: center;
+}
+#header {
+  background-color: linen;
+}
+#skills {
+  font-weight: bold;
+  font-size: 15px;
+}
