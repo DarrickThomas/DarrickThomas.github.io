@@ -18,56 +18,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main</title>
   </head>
-  <body>
+  <body onload="startTime()">
     <div class="site">
-      <div class="row">
-        <div class="col-md-6">
-          <p>Example</p>
+      <div class="row" id="header">
+        <br />
+        <div class="col-xs-4 ">
+          <br><br>
+          <p id="txt"></p>
         </div>
-        <div class="col-md-6">
+        <br />
+        <br />
+
+        <div class="col-lg-4">
           <nav>
-            <ul class="nav nav-pills">
-              <li class="active">
-                <a href="/index.html">Home</a>
-              </li>
-              <li>
-                <a href="/notes.html">Profile</a>
-              </li>
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="/index.html">Home</a></li>
+              <li><a href="/notes.html">Profile</a></li>
               <li class="disabled">
                 <a href="#">Contact</a>
               </li>
+              <li>
+                <a href="/div.html">Div Tags</a>
+              </li>
             </ul>
           </nav>
+          </div>
         </div>
       </div>
     </div>
 
     <br />
     <br />
-    <center>
-      <button name="simple_button" type="button">Notes Page</button>
-      <br />
-      <br />
-      <button
-        name="simple_button"
-        type="button"
-        id="timeButton"
-        onmouseover="newTime()"
-      >
-        Time
-      </button>
-    </center>
+
+    <br />
     <div class="row">
-      <div class="col-md-4-2">
-        <h1>Hi, My name is</h1>
+      <h1>My Name</h1>
+      <div class="col-lg-2"><ul id="skills"> *Skills*
+        <li>
+          Communication
+        </li>
+        <li>
+          Hardworker
+        </li>
+        <li>
+          Lazyniess
+        </li>
+        <li>
+          Adhd
+        </li>
+        <li>
+          Prone to spontaneous depression
+        </li>
+        <li>
+          Loves money tho... lol,
+        </li>
+      </ul></div>
+      <div class="col-lg-4">
+        <blockquote>
+          <p>
+            I'm a freelance software developer... <br />
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+            aliquam eveniet officia mollitia quasi labore ipsum. Nemo ex in
+            itaque. Fuga dolores aspernatur laudantium. Sint saepe omnis sed
+            nihil maxime.
+          </p>
+        </blockquote>
+      </div>
+      <div class="col-md-4 col-md-offset-0">
+        <blockquote>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            posuere erat a ante.
+          </p>
+        </blockquote>
       </div>
     </div>
-
-    <p>
-      I'm a freelance software developer... <br />
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas aliquam
-      eveniet officia mollitia quasi labore ipsum. Nemo ex in itaque. Fuga
-      dolores aspernatur laudantium. Sint saepe omnis sed nihil maxime.
-    </p>
   </body>
 </html>

@@ -30,3 +30,4 @@ Numbers and Strings
 Variable values are called Variables. Variables
 var, let, const declares values #step 1
 The "equal to" operator is written like == in JavaScript.
+div = containers
