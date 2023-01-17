@@ -12,7 +12,7 @@ The id attribute defines the HTML element.
 The innerHTML property defines the HTML content:
 
 
-
+x
 var	        Declares a variable
 let	        Declares a block variable
 const	    Declares a block constant
@@ -30,4 +30,3 @@ Numbers and Strings
 Variable values are called Variables. Variables
 var, let, const declares values #step 1
 The "equal to" operator is written like == in JavaScript.
-div = containers
